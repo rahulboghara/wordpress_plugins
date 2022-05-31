@@ -1,0 +1,38 @@
+.wrap h2 {
+    font-size: 19px;
+}
+.wrap .zs-use-content-wrapper { 
+    padding: 25px;
+}
+.zs-use-content-wrapper p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 auto 5px;
+}
+.zs_support_wrapper{
+    margin-top: 20px;
+}
+.zs_support_wrapper .wrap{
+    float: left;
+    margin-right: 20px;
+}
+.zs_support_wrapper .wrap.wrap_left {
+    width: auto;
+}
+.zs_support_wrapper .wrap.wrap_left .postbox h2{
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+.zs_support_wrapper img{
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.4);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.4);
+}
+
+
+
+@media (max-width: 782px) {
+    .zs_support_wrapper .wrap.wrap_left {margin-right: 10px;}
+
+}   

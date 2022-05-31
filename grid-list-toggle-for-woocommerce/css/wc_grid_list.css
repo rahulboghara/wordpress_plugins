@@ -1,0 +1,35 @@
+ul.phoen_list li.product {
+	width: 100% !important;
+	text-align: left !important;
+}
+
+.phoen_gridlist_toggle {
+    display: inline-block;
+    padding: 7px 0;
+	clear: both;
+	float: left;
+	margin-right: 20px;
+}
+
+
+.phoen_gridlist_toggle a{
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    margin-right: 8px;
+    float: left;
+}
+.phoen_gridlist_toggle a.active {
+	color:#83b735;
+}
+
+@media only screen and (max-width: 767px) {
+.phoen_gridlist_toggle {
+    display: inline-block;
+    padding: 7px 0;
+    clear: both;
+    float: left;
+    margin-right: 10px;
+}
+}

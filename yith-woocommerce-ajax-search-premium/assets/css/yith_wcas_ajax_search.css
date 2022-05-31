@@ -1,0 +1,247 @@
+/**
+ * Frontend style
+ *
+ * @author Your Inspiration Themes
+ * @package YITH WooCommerce Ajax Search
+ * @version 1.1.1
+ */
+
+/* search autocomplete */
+.autocomplete-suggestions {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    border-radius: 0;
+    box-sizing: border-box;
+    top: 42px;
+    width: calc(100% + 4px) !important;
+    left: -2px;
+}
+
+.autocomplete-suggestion {
+    background: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 35px;
+    padding:5px 15px ;
+    font-size: 12px;
+    clear: both;
+    position: relative;
+    min-height: 46px;
+}
+
+.autocomplete-suggestion:hover {
+    background-color: #f2f2f2;
+}
+
+.autocomplete-suggestion .yith_wcas_result_image{
+    float: left;
+    margin-right: 10px;
+}
+.autocomplete-suggestion .yith_wcas_result_content{
+    display: block;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.autocomplete-suggestion .align-right{
+    float: right;
+    margin-left: 10px;
+}
+
+.autocomplete-suggestion p.yith_wcas_result_excerpt,
+.autocomplete-suggestion div.yith_wcas_result_categories{
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.autocomplete-suggestions span.sku {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1em;
+}
+
+.woocommerce .autocomplete-suggestion  div.badges,
+.autocomplete-suggestion  div.badges{
+    right: 18px;
+    left: auto;
+    position: absolute;
+    top: 10px;
+    width: auto;
+    line-height: 2em;
+}
+
+.woocommerce .autocomplete-suggestion  span.yith_wcas_result_on_sale,
+.autocomplete-suggestion  span.yith_wcas_result_on_sale{
+    position: relative;
+    background-color: #7eb742;
+    color: #fff;
+    padding: 0px 8px;
+    height: auto;
+    display: inline-block;
+}
+
+.woocommerce .autocomplete-suggestion  span.yith_wcas_result_outofstock,
+.autocomplete-suggestion  span.yith_wcas_result_outofstock{
+    position: relative;
+    color: #fff;
+    padding: 0px 8px;
+    height: auto;
+    display: inline-block;
+}
+
+.woocommerce .autocomplete-suggestion  span.yith_wcas_result_featured,
+.autocomplete-suggestion  span.yith_wcas_result_featured{
+    position: relative;
+    background-color: #C0392B;
+    color: #fff;
+    padding: 0px 8px;
+    height: auto;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+#yith-ajaxsearchform select, input[type="search"]{
+    margin-bottom: 10px;
+}
+
+input[type="search"]{
+    -webkit-appearance:textfield;
+}
+.widget.yith_woocommerce_ajax_search {
+    margin: 0 auto;
+    float: left;
+    max-width: 100%;
+    float: left;
+    cursor: pointer;
+    width: 65.6%;
+    text-align: left;
+    padding: 0;
+    height: 46px;
+    border: 2px solid #e6e6e6;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.yith_woocommerce_ajax_search input[type="search"]{
+    border: none;
+    padding: 11px 15px;
+    width: 100%;
+    background: transparent;
+    color: #777777;
+    float: left;
+    margin: 0 auto;
+    font-size: 15px;
+    text-overflow: ellipsis;
+}
+
+#yith-ajaxsearchform .search-navigation {
+    display: inline-block;
+    float: left;
+    width: calc(100% - 216px);
+}
+
+/* VIEW ALL RESULTS */
+.woocommerce .autocomplete-suggestions .link-result{
+    display: block;
+    text-align: center;
+    clear: both;
+    padding: 5px;
+    font-size: 14px;
+}
+.woocommerce .autocomplete-suggestion .title {
+    line-height: 1.6em;
+    margin-bottom: 5px;
+}
+
+#yith-ajaxsearchform select{
+    margin-bottom: 10px;
+    border: none;
+    padding: 11px 15px;
+    width: 100%;
+    background: transparent;
+    color: #777777;
+    float: left;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0 auto;
+    text-indent: 1px;
+    padding-right: 23px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+.yith-ajaxsearchform-select{
+    border: none;
+    padding: 0;
+    width: 166px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.yith-ajaxsearchform-select:before {
+    content: "\f107";
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: auto;
+    right: 16px;
+    top: 11px;
+    color: #777;
+
+}
+#yith-searchsubmit {
+    float: right;
+    width: 50px;
+    background: url(../images/search.png) no-repeat center center transparent;
+    padding: 0;
+    text-align: center;
+    box-shadow: none;
+    opacity: 0.6;
+    height: 42px;
+    position: relative;
+    float: right;
+    top: 0;
+    right: 0;
+    font-size: 0;
+}
+#yith-searchsubmit:hover {
+    opacity: 1;
+}
+
+
+/**
+ * Template wide
+ *
+ * @author Your Inspiration Themes
+ * @package YITH WooCommerce Ajax Search
+ * @version 1.4.8
+ */
+
+.yith-ajaxsearchform-wide .yith-ajaxsearchform-container {display: table;width: 100%;}
+.yith-ajaxsearchform-wide .yith-ajaxsearch-filters{display: table-cell;vertical-align: middle;}
+.yith-ajaxsearchform-wide .yith-ajaxsearchform-select, .yith-ajaxsearchform-wide .search-input-container, .yith-ajaxsearchform-wide .search-submit-container{display: table-cell;vertical-align: middle;padding-right: 5px;}
+.yith-ajaxsearchform-wide .search-input-container{width: 100%;}
+.yith-ajaxsearchform-wide .search-input-container input[type="search"]{width: 100%;padding: 0 10px;}
+.yith-ajaxsearchform-wide .search-submit-container{padding-right: 0;}
+.yith-ajaxsearchform-wide #yith-ajaxsearchform select, .yith-ajaxsearchform-wide input[type=search] {margin: 0;}
+.yith-ajaxsearchform-wide .search-input-container input[type="search"], .yith-ajaxsearchform-wide #yith-ajaxsearchform select, .yith-ajaxsearchform-wide #yith-ajaxsearchform input[type="submit"]{min-height: 30px;margin: 0;}
+.yith-ajaxsearchform-wide.filters-above .yith-ajaxsearch-filters{display: table;width: 100%;margin-bottom: 5px;}
+.yith-ajaxsearchform-wide.filters-above .yith-ajaxsearchform-select {width: 50%;}
+.yith-ajaxsearchform-wide.filters-above .yith-ajaxsearchform-select:last-child{padding-right: 0;}
+.yith-ajaxsearchform-wide.filters-above .yith-ajaxsearchform-select select{width: 100%;}
